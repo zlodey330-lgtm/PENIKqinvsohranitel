@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "penikqinvcheck",
+  "version": "${version}",
+  "name": "PENIKqinvsohranitel",
+  "description": "Menu on V: save your inventory and check what is missing, broken or misplaced.",
+  "authors": ["PENIKq"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.penikq.invcheck.InvCheckClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1 <1.21.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
